@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import FeaturedSpotsCarousel from "@/components/FeaturedSpotsCarousel";
 import FeaturedDestinations from "@/components/FeaturedDestinations";
 import CulturalHeritage from "@/components/CulturalHeritage";
 
@@ -8,6 +9,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Header />
       <HeroSection />
+      <FeaturedSpotsCarousel />
       <FeaturedDestinations />
       <CulturalHeritage />
     </div>

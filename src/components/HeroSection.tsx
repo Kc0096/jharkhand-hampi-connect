@@ -26,8 +26,8 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Where Nature Meets
-              <span className="block text-tribal-gold">Ancient Wisdom</span>
+              Welcome to Smart
+              <span className="block text-tribal-gold">Jharkhand Tourism</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl leading-relaxed">
@@ -38,7 +38,7 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{animationDelay: '0.3s'}}>
             <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-              Start Your Journey
+              Plan Your Trip
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
             
