@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Palette, Music, Users, Calendar } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const CulturalHeritage = () => {
   return (
@@ -43,9 +44,11 @@ const CulturalHeritage = () => {
               </div>
             </div>
 
-            <Button variant="tribal" size="lg">
-              Explore Culture
-            </Button>
+            <Link to="/culture">
+              <Button variant="tribal" size="lg">
+                Explore Culture
+              </Button>
+            </Link>
           </div>
 
           {/* Cultural Cards */}

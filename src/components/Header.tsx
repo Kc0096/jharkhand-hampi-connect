@@ -16,16 +16,16 @@ const Header = () => {
         </div>
 
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#destinations" className="text-foreground hover:text-primary transition-smooth font-medium">
+          <a href="/destinations" className="text-foreground hover:text-primary transition-smooth font-medium">
             Destinations
           </a>
-          <a href="#culture" className="text-foreground hover:text-primary transition-smooth font-medium">
+          <a href="/culture" className="text-foreground hover:text-primary transition-smooth font-medium">
             Culture
           </a>
           <a href="#activities" className="text-foreground hover:text-primary transition-smooth font-medium">
             Activities
           </a>
-          <a href="#plan" className="text-foreground hover:text-primary transition-smooth font-medium">
+          <a href="/itinerary-planner" className="text-foreground hover:text-primary transition-smooth font-medium">
             Plan Trip
           </a>
         </nav>

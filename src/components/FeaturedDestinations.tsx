@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { MapPin, Star, Clock } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const destinations = [
   {
@@ -107,9 +108,11 @@ const FeaturedDestinations = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="default" size="lg">
-            View All Destinations
-          </Button>
+          <Link to="/destinations">
+            <Button variant="default" size="lg">
+              View All Destinations
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
